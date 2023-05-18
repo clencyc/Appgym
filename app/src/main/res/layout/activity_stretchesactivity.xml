@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stretchesactivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="406dp"
+        android:layout_height="214dp"
+        app:srcCompat="@drawable/ninetystr"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="43dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="90/90 Stretch"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="275dp"
+        android:layout_marginTop="220dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="406dp"
+        android:layout_height="214dp"
+        app:srcCompat="@drawable/sidebend_stretch"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Side bend stretch"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="420dp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <ImageView
+
+        android:layout_width="406dp"
+        android:layout_height="214dp"
+        app:srcCompat="@drawable/triceps"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="43dp"
+        android:layout_marginTop="550dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triceps stretch"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="113dp"
+        android:layout_marginTop="700dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+
+
+    <ImageView
+
+        android:layout_width="406dp"
+        android:layout_height="214dp"
+        app:srcCompat="@drawable/lunge"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="43dp"
+        android:layout_marginTop="790dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunge with spinal twist"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="113dp"
+            android:layout_marginTop="1000dp"
+            tools:layout_editor_absoluteY="275dp"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

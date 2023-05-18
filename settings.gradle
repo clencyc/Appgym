@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+<<<<<<< HEAD
+rootProject.name = "Display_clency"
+=======
+rootProject.name = "App_gym.coc"
+>>>>>>> 2b22255 (final commit)
+include ':app'

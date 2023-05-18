@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<<<<<<< HEAD
+    <uses-permission android:name="android.permission.INTERNET"/>
+=======
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+>>>>>>> 2b22255 (final commit)
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+<<<<<<< HEAD
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Display_clency"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewUses"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+=======
+        android:supportsRtl="true">
+        <activity
+            android:name=".CLNDactivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".mentalWellnessActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".MentalActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".strengthexercisesActivity"
+            android:exported="false"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+        <activity
+            android:name=".stretchesactivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".fullbodyactivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".CardioActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light">
+>>>>>>> 2b22255 (final commit)
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<<<<<<< HEAD
+=======
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".CreateAccountActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".App_intro"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+>>>>>>> 2b22255 (final commit)
+    </application>
+
+</manifest>
